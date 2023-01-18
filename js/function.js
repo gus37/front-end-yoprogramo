@@ -1,4 +1,4 @@
-// eventos de java. evento boton.
+// eventos de java. evento boton. buscar y repasar los eventos de js!!!
 
 document.getElementById('boton').onclick = function () {
     console.log("Capturamos el evento click");
