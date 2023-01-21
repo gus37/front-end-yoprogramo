@@ -10,13 +10,27 @@
 </head>
 <body>
     
-    <!-- evento de java -->
+    <form>
+        <label>Numero1
+            <input type="number" id="numero1" required>
+        </label>
 
-    <p id="demo">Estamos aprendiendo JavaScript</p>
+        <label>Numero2
+            <input type="number" id="numero2" required>
+        </label>
 
-    <button type="button" id="boton">haz click aqui</button>
+        <button type="button" id="sumar">Realizar Suma</button>
+    </form>
+<br>
+<br>
+<br>
+<hr>
+    <div id="contenedorResultado" style="display: none;">
+    El resultado de la Suma es: <p id="resultado"></p>
+    </div>
+<hr>
 
-    <script src="js/function.js"></script>
+    <script src="js/suma.js"></script>
 
 </body>
 </html>

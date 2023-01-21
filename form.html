@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>creando un formulario en html</title>
+    <link rel="shortcut icon" href="ico/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    
+    <form action="" method="post">
+        
+        <label>Nombre</label>
+        <input type="text" name="nombre" placeholder="ingrese su nombre">
+
+        <label>Apellido</label>
+        <input type="text" name="apellido" placeholder="ingrese su apellido">
+
+        <label>E-mail</label>
+        <input type="email" name="email" placeholder="ingrese su e-mail">
+
+        <label>Password</label>
+        <input type="password" name="password" placeholder="ingrese su password">
+
+    </form>
+    <br>
+    <br>
+
+    <!-- tipos de formularios -->
+
+    <form action="" method="">
+
+        <label>Nombre</label>
+        <input type="text" name="nombre" 
+        placeholder="ingrese su nombre">
+
+        <!-- Etiqueta INPUT: crea un cuadro donde el usuario puede ungresar muchos tipos de datos, como= letras, numeros, telefonos, emails, etc.
+        Etiqueta Label: se usa para ponerle nombre al input.
+         -->
+        
+        <label>Elige un color</label>
+        <select>
+            <option>Rojo</option>
+            <option selected>Amarillo</option>
+            <option>Verde</option>
+        </select>
+        <br>
+        <br>
+
+        <!-- Etiqueta SELECT: se utiliza para crear una lista de opciones. esta en particular nos crea un cuadrado donde el usuario puede expandir las opciones con la flecha del costado y seleccionar la opcion que quiera.
+        Usamos Label para derle un nombre.
+        Con SELECTED le indicamos que opcion es la que se va a mostrar predeterminadamente en el recuadro, sino se muestra la primer opcion. -->
+
+        <label for="">DEJE SU COMENTARIO</label>
+        <br>
+        <textarea cols="30" rows="10"></textarea>
+        <br>
+        <br>
+
+        <!-- Etiqueta TEXTAREA: nos crea un recuadro donde el usuario puede ingresar texto. con rows indicamos la cantidad de renglones y con cols el ancho del cuadro. sino usamos width y le decimos cuantos px queremos que ocupe. -->
+
+        <button type="button" onclick="alert('mensaje enviado');">ENVIAR</button>
+
+        <!-- Etiqueta BUTTON: se utiliza para hacer botones. con onclick podemos mostrar un mensaje despues de que el boton ejecute la accion. -->
+
+    </form>
+
+    <!-- CAMPO OBLIGATORIO???= se realiza 
+    agregandole a input el atributo required. -->  
+    
+    <form action="https://es.wikipedia.org/wiki/Madonna">
+
+        <input type="password" name="contrasena" placeholder="ingrese su contrasena" required>
+
+        <button type="submit">enviar</button>
+
+    </form>
+    
+</body>
+
+</html>
