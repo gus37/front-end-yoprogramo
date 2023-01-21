@@ -6,10 +6,12 @@ body{
 #contenedorResultado{
     background-color: orange;
     color: black;
+    font-size: 25px;
     border: 1px orange solid;
     margin: 5px;
     padding: 30px;
 }
 #resultado{
     color: brown;
+    font-size: 50px;
 }
